@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>DIUXA Tech Hub | Lesson 22</title>
+    <title>DIUXA Tech Hub | Lesson 23</title>
 
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lesson.css">
@@ -93,7 +93,7 @@
 
             <span>/</span>
 
-            <span>Lesson 22</span>
+            <span>Lesson 23</span>
 
         </div>
 
@@ -103,15 +103,15 @@
         <section class="lesson-header">
 
             <div class="lesson-number">
-                LESSON 22
+                LESSON 23
             </div>
 
             <h1>
-                Grid Layout in CSS      
+                CSS Positioning       
             </h1>
 
             <p>
-                Learn the fundamental concept of Grid Layout in CSS.
+                Learn the fundamental concept of CSS Positioning.
             </p>
 
             <div class="lesson-meta">
@@ -138,14 +138,14 @@
             <div class="video-container">
 
                 <iframe
-                    src="https://www.youtube.com/embed/WOVOl2x0Hgc"
-                    title="CSS Grid Layout - DIUXA Tech Hub"
+                    src="https://www.youtube.com/embed/bSeq-u-j8rM"
+                    title="CSS Positioning - DIUXA Tech Hub"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
                 </iframe>
 
-            </div>
+            </div>  
 
         </section>
 
@@ -163,11 +163,10 @@
                     <h3>About this lesson</h3>
 
                     <p>
-                        In this tutorial, you’ll learn how to use CSS Grid Layout 
-                        to create clean, responsive, and well-structured web page 
-                        layouts. We’ll go from the basics of Grid to arranging 
-                        elements into rows and columns, giving you the foundation 
-                        you need to build modern websites with CSS.
+                        In this tutorial, you’ll learn how CSS positioning works 
+                        and how to control the exact placement of elements on a webpage. 
+                        You’ll understand the different positioning properties and how 
+                        to use them to create clean, flexible, and professional web layouts.
                     </p>
 
                 </div>
@@ -186,23 +185,23 @@
                     <ul>
 
                         <li>
-                            Understanding CSS Grid and how to create grid containers and items.
+                            What CSS positioning is and why it is important.
                         </li>
 
                         <li>
-                            How to create a Grid container using CSS.
+                            How to use static, relative, and absolute positioning.
                         </li>
 
                         <li>
-                            How to create and control rows and columns   
+                            How to use fixed and sticky positioning.  
                         </li>
 
                         <li>
-                            How to position and arrange elements within a Grid.
+                            How to position elements using top, right, bottom, and left.
                         </li>
 
                         <li>
-                            How to build responsive layouts using CSS Grid.
+                            How to create practical layouts using CSS positioning.
                         </li>
 
                     </ul>
@@ -218,7 +217,7 @@
 
         <section class="lesson-navigation">
 
-            <a href="lesson21.html" class="previous-btn">
+            <a href="lesson22.html" class="previous-btn">
 
                 <i class="fas fa-arrow-left"></i>
  
@@ -226,7 +225,7 @@
 
                     <small>Previous Lesson</small>
 
-                    <strong>Lesson 21</strong>
+                    <strong>Lesson 22</strong>
 
                 </div>
 
@@ -244,13 +243,13 @@
             </button>
 
 
-            <a href="lesson23.html" class="next-btn">
+            <a href="lesson24.html" class="next-btn">
 
                 <div>
 
                     <small>Next Lesson</small>
 
-                    <strong>Lesson 23</strong>
+                    <strong>Lesson 24</strong>
 
                 </div>
 
@@ -322,7 +321,7 @@
                         localStorage.getItem("completedLessons")
                     ) || 0;
 
-                if (!localStorage.getItem("lesson22Completed")) {
+                if (!localStorage.getItem("lesson23Completed")) {
 
                     completed++;
 
@@ -332,7 +331,7 @@
                     );
 
                     localStorage.setItem(
-                        "lesson22Completed",
+                        "lesson23Completed",
                         "true"
                     );
 
@@ -351,7 +350,7 @@
         /* RESTORE COMPLETION */
 
         if (
-            localStorage.getItem("lesson22Completed") &&
+            localStorage.getItem("lesson23Completed") &&
             completeBtn
         ) {
 
@@ -368,7 +367,7 @@
         if (video) {
 
             const savedTime =
-                localStorage.getItem("lesson22VideoTime");
+                localStorage.getItem("lesson23VideoTime");
 
             video.addEventListener("loadedmetadata", () => {
 
